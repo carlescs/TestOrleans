@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrleans.Grains", "TestOrleans.Grains\TestOrleans.Grains.csproj", "{6C42C72B-D3F9-4502-8534-E766DCF14546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOrleans.Grains", "TestOrleans.Grains\TestOrleans.Grains.csproj", "{6C42C72B-D3F9-4502-8534-E766DCF14546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrleans.GrainInterfaces", "TestOrleans.GrainInterfaces\TestOrleans.GrainInterfaces.csproj", "{D6821613-7390-4712-9DBC-024626A7E133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOrleans.GrainInterfaces", "TestOrleans.GrainInterfaces\TestOrleans.GrainInterfaces.csproj", "{D6821613-7390-4712-9DBC-024626A7E133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrleans.Silo", "TestOrleans.Silo\TestOrleans.Silo.csproj", "{EA997E69-6E83-4D15-AF92-BA3A6988FD70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOrleans.Silo", "TestOrleans.Silo\TestOrleans.Silo.csproj", "{EA997E69-6E83-4D15-AF92-BA3A6988FD70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrleans.Client", "TestOrleans.Client\TestOrleans.Client.csproj", "{91E8862A-2E41-4FE0-BDDE-39134F01106D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOrleans.Client", "TestOrleans.Client\TestOrleans.Client.csproj", "{91E8862A-2E41-4FE0-BDDE-39134F01106D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOrleans.Grains.Tests", "TestOrleans.Grains.Tests\TestOrleans.Grains.Tests.csproj", "{64333998-AEFC-4E22-8BC6-D0356E2F3485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{91E8862A-2E41-4FE0-BDDE-39134F01106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91E8862A-2E41-4FE0-BDDE-39134F01106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91E8862A-2E41-4FE0-BDDE-39134F01106D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64333998-AEFC-4E22-8BC6-D0356E2F3485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64333998-AEFC-4E22-8BC6-D0356E2F3485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64333998-AEFC-4E22-8BC6-D0356E2F3485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64333998-AEFC-4E22-8BC6-D0356E2F3485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
